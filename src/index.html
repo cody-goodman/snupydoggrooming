@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>W3.CSS Template</title>
+    <title>Snupy's Bark Place Dog Grooming</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
@@ -23,8 +23,7 @@
     <div class="w3-bar-block w3-center">
         <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
         <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
-        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+        <a href="https://www.facebook.com/people/Snupys-dog-grooming/61575931351214/" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Facebook</a>
     </div>
 </nav>
 
@@ -36,20 +35,19 @@
         <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
         <div class="w3-clear"></div>
         <header class="w3-center w3-margin-bottom">
-            <h1><b>PHOTOLIO</b></h1>
-            <p><b>A template made by w3.css for photographers.</b></p>
-            <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+            <h1><b>Snupy's Bark Place Dog Grooming</b></h1>
+            <p><b>Please Call <a href="tel:609-582-7858">609-582-7858</a> to schedule an appointment!</b></p>
         </header>
     </div>
 
     <!-- Photo Grid -->
-    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+    <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
         <div class="w3-third">
-            <img src="/assets/img-1.jpg" style="width:100%">
-            <img src="/assets/img-2.jpg" style="width:100%">
-            <img src="/assets/img-3.jpg" style="width:100%">
-            <img src="/assets/img-4.jpg" style="width:100%">
-            <img src="/assets/img-5.jpg" style="width:100%">
+            <img src="assets/img-1.jpg" style="width:100%">
+            <img src="assets/img-2.jpg" style="width:100%">
+            <img src="assets/img-3.jpg" style="width:100%">
+            <img src="assets/img-4.jpg" style="width:100%">
+            <img src="assets/img-5.jpg" style="width:100%">
         </div>
     </div>
 
@@ -58,26 +56,11 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.facebook.com/people/Snupys-dog-grooming/61575931351214/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <script>
-    // Toggle grid padding
-    function myFunction() {
-        var x = document.getElementById("myGrid");
-        if (x.className === "w3-row") {
-            x.className = "w3-row-padding";
-        } else {
-            x.className = x.className.replace("w3-row-padding", "w3-row");
-        }
-    }
-
     // Open and close sidebar
     function w3_open() {
         document.getElementById("mySidebar").style.width = "100%";
